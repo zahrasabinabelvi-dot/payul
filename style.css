@@ -1,0 +1,112 @@
+/* semua */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f5fa;
+    color: #263445;
+    line-height: 1.7;
+}
+
+/*Daerah logo*/
+header {
+    background: linear-gradient(135deg, #063970, #1768ac, #38a3d1);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* NAVIGASI */
+nav {
+    background-color: #052c54;
+    display: flex;
+    justify-content: center;
+    flex-wrap:flex-wrap;
+    gap: 10px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #38a3d1;
+    color: white;
+}
+
+/*Tampilan nya*/
+main {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+h2{
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+/*Profil*/
+Profil {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-left: 6px solid #1768ac;
+}
+
+/*Program*/
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-left: 6px solid #1768ac;
+}
+
+/*Kontak*/
+body > p {
+    background-color: #dceefa;
+    color: #063970;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+/*Copyright*/
+footer {
+    background-color: #052c54;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section, #kontak {
+    scroll-margin-top: 80px;
+}
